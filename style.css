@@ -2,23 +2,48 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: linear-gradient(to bottom, #a0e9fd, #0077cc);
+  color: #fff;
   text-align: center;
-  background-color: #f5f5f5;
-  color: #333;
 }
 
 header {
-  background-color: #0077cc;
-  color: white;
+  background-color: #005f7f;
   padding: 2em 0;
 }
 
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
 section {
-  padding: 2em;
+  background-color: rgba(0, 119, 204, 0.7);
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.imagens img {
+  max-width: 45%;
+  margin: 0.5em;
+  border-radius: 10px;
 }
 
 footer {
-  background-color: #ddd;
+  background-color: #004f6f;
   padding: 1em;
   font-size: 0.9em;
 }
+
